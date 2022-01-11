@@ -1,5 +1,10 @@
-import "../scss/app.scss";
 
 window.addEventListener("DOMContentLoaded", () => {
-  // This block will be executed once the page is loaded and ready
+  let hotPrices = document.querySelectorAll('.hot');
+
+  for(let i = 0; i<hotPrices.length; i++) {
+    let text = hotPrices[i].textContent;
+    hotPrices[i].innerHTML = text + '&#128293';
+  }
+  
 });
