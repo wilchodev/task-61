@@ -90,4 +90,13 @@
       </div>
     </div>
   </body>
+  <script>
+    let hotPrices = document.getElementsByClassName('hot');
+
+    for(let i = 0; i<hotPrices.length; i++) {
+      let text = hotPrices[i].textContent;
+      hotPrices[i].innerHTML = text + '&#128293';
+    }
+    
+  </script>
 </html>
