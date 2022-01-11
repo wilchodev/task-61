@@ -8,6 +8,7 @@
       content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="js/app.js"></script>
   </head>
   <body>
     <div class="main">
@@ -90,13 +91,4 @@
       </div>
     </div>
   </body>
-  <script>
-    let hotPrices = document.getElementsByClassName('hot');
-
-    for(let i = 0; i<hotPrices.length; i++) {
-      let text = hotPrices[i].textContent;
-      hotPrices[i].innerHTML = text + '&#128293';
-    }
-    
-  </script>
 </html>
